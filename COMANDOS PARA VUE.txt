@@ -11,4 +11,3 @@ npm install axios => instal axios
 npm install vue-router --save => para rutas y navegar en ellas
 
 npm install vue-router@4
-
