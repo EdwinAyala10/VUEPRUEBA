@@ -1,0 +1,35 @@
+composer create-project –prefer-dist laravel/laravel Project_name
+
+composer create-project laravel/laravel name-example
+
+composer create-project laravel/laravel curso-laravel-styde "8.*" === es para version
+
+php artisan tinker =>para probar conexion 
+DB::connection()->getPdo(); dentro del tinker => probar conexion
+
+
+make = > es para crear un archivo.
+
+php artisan make:controller NombreController  => crea un archivo controlador
+
+php artisan make:model User -m o --resource => crea un archivo controlador
+
+php artisan migrate => ejecuta la migración y crea las tablas 
+
+php artisan make:migration Cursos  => crea un archivo de migracion
+
+php artisan migrate:rollback  => se revierte el cambio de la ultima ejecución
+
+php artisan migrate:fresh => elimina todas las tablas y las vuelve a crear(SI LA FUNCION UP ESTA BIEN ESCRITO)
+
+php artisan migrate:refresh => primero lee el metodo down y elimina las tablas(SI LA FUNCION ESTA BIEN ESCRITA), luego lee el down y crea las tablas
+
+php artisan route:cache
+
+php artisan route:clear => para limpiar las rutas
+
+--resource => te crea todo los metodos necesarios
+--api => te crea 5 metodos 
+-mcr = > crea un model,migration y controlador,
+-all crea todo los , medelo, controlador, migration, factory, seeder
+

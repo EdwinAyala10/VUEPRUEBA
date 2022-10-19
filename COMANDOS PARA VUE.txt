@@ -1,0 +1,14 @@
+npm install -g @vue/cli    =>   para instalar vue.js
+
+vue create nombrecarpetaproyecto-vue => para crear el proyecto de vue
+
+npm run serve = > para correr el proyecto
+
+run npm run build => para correr el proyecto en el servidor de desarrollo
+
+npm install axios => instal axios
+
+npm install vue-router --save => para rutas y navegar en ellas
+
+npm install vue-router@4
+
