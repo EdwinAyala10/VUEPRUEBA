@@ -2,7 +2,13 @@ npm install -g npm@latest => instalar la ultima version o actualizacion de npm (
 
 npm cache clean --force => limpia la cache de node para instalar la ultima v. de react
 
-npm install -g create-react-app
+npm install -g create-react-app => limpiar cache
+
+create-react-app aprendiendo-react => crear el proyecto react en una carpeta
+
+npm install axios => instala axios
+
+npm install react-router-dom@6 => instala routs
 
 npm install --legacy-peer-deps
 
